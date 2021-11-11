@@ -49,7 +49,7 @@ git push heroku master
 
 以下のコマンドを実行し、環境変数に認証情報を追加します。
 ```shell
-heroku config:set SHOPIFY_API_KEY={KEY} SHOPIFY_API_SECRET={SECRET}
+heroku config:set SHOPIFY_API_KEY=6d90ed43f0b7100d168d5d74e1b843b9 SHOPIFY_API_SECRET=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
 ```
 `{}`の値は、それぞれ以下を当てはめてください。
 - `SHOPIFY_API_KEY`: Shopify partners > アプリ管理 > 作成したカスタムアプリ > APIキー > APIキー の値
